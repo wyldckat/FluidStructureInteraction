@@ -36,6 +36,34 @@ Further modifications made by Bruno Santos <wyldckat@github>:
  * Adjusted the code for building properly with the more recent foam-extend 3.1
  * Improved building organization for taking full advantage of parallel building.
 
+ 
+Git branches
+============
+
+Currently there are only two branches:
+
+  * [fe30](https://github.com/wyldckat/FluidStructureInteraction/tree/fe30) - This branch will build as-is with foam-extend 3.0
+  * [fe31](https://github.com/wyldckat/FluidStructureInteraction/tree/fe31) - This branch will build as-is with foam-extend 3.1
+
+Quick usage instructions:
+
+  1. Clone the repository:
+  ```
+  git clone https://github.com/wyldckat/FluidStructureInteraction.git
+  ```
+  
+  2. Checkout the right branch, e.g. for `fe30`:
+  ```
+  cd FluidStructureInteraction
+  git checkout fe30
+  ```
+
+  3. Now build:
+  ```
+  cd src
+  ./Allwmake
+  ```
+
 
 License
 =======
