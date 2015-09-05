@@ -56,8 +56,9 @@ Author
 
 namespace Foam
 {
-  // forward declaration
-  class solidInterface;
+
+// forward declaration
+class solidInterface;
 
 /*---------------------------------------------------------------------------*\
                         Class constitutiveModel Declaration

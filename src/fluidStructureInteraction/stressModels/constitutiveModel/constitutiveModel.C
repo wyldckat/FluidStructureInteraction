@@ -475,7 +475,7 @@ tmp<surfaceScalarField> constitutiveModel::muf() const
 
     if (solidInterfaceActive_)
     {
-      solidInterface().modifyProperties(muf);
+        solInterface().modifyProperties(muf);
     }
 
     return tresult;
@@ -502,7 +502,7 @@ tmp<surfaceScalarField> constitutiveModel::lambdaf() const
 
     if (solidInterfaceActive_)
     {
-      solidInterfacePtr_->modifyProperties(lambdaf);
+        solInterface().modifyProperties(lambdaf);
     }
 
     return tresult;
@@ -529,7 +529,7 @@ tmp<surfaceScalarField> constitutiveModel::threeKf() const
 
     if (solidInterfaceActive_)
     {
-      solidInterface().modifyProperties(threeKf);
+        solInterface().modifyProperties(threeKf);
     }
 
     return tresult;
@@ -556,7 +556,7 @@ tmp<surfaceDiagTensorField> constitutiveModel::Kf() const
 
     if (solidInterfaceActive_)
     {
-        solidInterface()->modifyProperties(Kf);
+        solInterface().modifyProperties(Kf);
     }
 
     return tresult;
@@ -583,7 +583,7 @@ tmp<surfaceSymmTensor4thOrderField> constitutiveModel::Cf() const
 
     if (solidInterfaceActive_)
     {
-        solidInterface()->modifyProperties(Cf);
+        solInterface().modifyProperties(Cf);
     }
 
     return tresult;
