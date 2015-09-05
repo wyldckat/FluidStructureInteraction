@@ -3,7 +3,7 @@ EXE_INC = \
     -I$(LIB_SRC)/postProcessing/foamCalcFunctions/lnInclude \
     -I$(LIB_SRC)/finiteVolume/lnInclude
 
-EXE_LIBS = \
+LIB_LIBS = \
     -L$(FOAM_USER_LIBBIN) \
     -lfluidStructureInteraction \
     -lfiniteVolume \
