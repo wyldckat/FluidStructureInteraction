@@ -37,7 +37,7 @@ Description
 #define extendedGGIInterpolation_H
 
 #include "ExtendedGGIInterpolation.H"
-#include "PrimitivePatch.H"
+#include "PrimitivePatchTemplate.H"
 #include "face.H"
 #include "SubList.H"
 #include "pointField.H"
