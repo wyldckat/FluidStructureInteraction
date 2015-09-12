@@ -25,7 +25,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faMeshDecomposition.H"
-#include "Time.H"
+#include "foamTime.H"
 #include "dictionary.H"
 #include "labelIOList.H"
 #include "processorFaPatch.H"
