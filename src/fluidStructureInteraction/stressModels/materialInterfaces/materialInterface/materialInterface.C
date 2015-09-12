@@ -823,7 +823,7 @@ tmp<volTensorField> materialInterface::grad
 
     // Gradient calculation using Gauss method
 
-    gradD = fv::gaussGrad<vector>(mesh()).grad(Df);
+    gradD = fv::gaussGrad<vector>(mesh()).gradf(Df, Df.name());
     fv::gaussGrad<vector>(mesh()).correctBoundaryConditions
     (
         displacement, 

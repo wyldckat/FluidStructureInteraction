@@ -1867,7 +1867,7 @@ tmp<volTensorField> solidInterfaceTL::grad(volVectorField& D) const
 
     // Gradient calculation using Gauss method
 
-    gradD = fv::gaussGrad<vector>(mesh_).grad(Df);
+    gradD = fv::gaussGrad<vector>(mesh_).gradf(Df, Df.name());
     fv::gaussGrad<vector>(mesh_).correctBoundaryConditions(D, gradD);
 
     return tGradD;
