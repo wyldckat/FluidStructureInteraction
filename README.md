@@ -33,7 +33,7 @@ Original source came from the wiki page: http://openfoamwiki.net/index.php/Exten
 Further modifications made by Bruno Santos <wyldckat@github>:
 
  * Gitified the source code.
- * Adjusted the code for building properly with the more recent foam-extend 3.1
+ * Adjusted the code for building properly with the more recent foam-extend 3.1 and 3.2
  * Improved building organization for taking full advantage of parallel building.
 
  
@@ -44,6 +44,7 @@ Currently there are only two branches:
 
   * [fe30](https://github.com/wyldckat/FluidStructureInteraction/tree/fe30) - This branch will build as-is with foam-extend 3.0
   * [fe31](https://github.com/wyldckat/FluidStructureInteraction/tree/fe31) - This branch will build as-is with foam-extend 3.1
+  * [fe32](https://github.com/wyldckat/FluidStructureInteraction/tree/fe32) - This branch will build as-is with foam-extend 3.2
 
 Quick usage instructions:
 
