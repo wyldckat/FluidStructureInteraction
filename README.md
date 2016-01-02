@@ -30,7 +30,7 @@ Further modifications
 
 Original source came from the wiki page: http://openfoamwiki.net/index.php/Extend-bazaar/Toolkits/Fluid-structure_interaction
 
-Further modifications made by Bruno Santos <wyldckat@github>:
+Further modifications made by Bruno Santos (wyldckat@github working at [blueCAPE Lda](http://www.bluecape.com.pt)):
 
  * Gitified the source code.
  * Adjusted the code for building properly with the more recent foam-extend 3.1 and 3.2
