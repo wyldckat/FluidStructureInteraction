@@ -15,5 +15,4 @@ LIB_LIBS = \
     -ldynamicFvMesh \
     -ldynamicMesh \
     -lmeshTools \
-    -ltriSurface \
     -lsolidModels

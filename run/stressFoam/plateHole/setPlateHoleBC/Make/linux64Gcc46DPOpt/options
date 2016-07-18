@@ -11,4 +11,4 @@ EXE_INC =     -I$(LIB_SRC)/finiteVolume/lnInclude     -I$(LIB_SRC)/finiteArea/ln
 
 
 
-LIB_LIBS =     -lfiniteVolume     -lfiniteArea     -ldynamicFvMesh     -ldynamicMesh     -lmaterialModels     -lmeshTools     -ltriSurface
+LIB_LIBS =     -lfiniteVolume     -lfiniteArea     -ldynamicFvMesh     -ldynamicMesh     -lmaterialModels     -lmeshTools
