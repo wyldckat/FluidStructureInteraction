@@ -1,3 +1,0 @@
-OBJECTS = \
-$(OBJECTS_DIR)/tractionDisplacementIncrementFvPatchVectorField.o\
-$(OBJECTS_DIR)/setSphereBC.o

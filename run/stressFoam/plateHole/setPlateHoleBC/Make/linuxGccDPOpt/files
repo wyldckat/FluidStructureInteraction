@@ -1,4 +1,0 @@
-
-updateRotatingBarBC.C
-
-LIB = $(FOAM_USER_LIBBIN)/libupdateRotatingBarBC
