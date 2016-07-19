@@ -1,7 +1,0 @@
-
-
-tractionDisplacementIncrement/tractionDisplacementIncrementFvPatchVectorField.C
-
-setSphereBC.C
-
-LIB = $(FOAM_USER_LIBBIN)/libsetSphereBC
