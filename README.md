@@ -20,7 +20,7 @@ Original Authors
 
  * solidMechanics toolbox: Philip Cardiff, University College Dublin.
 
- * FluidStructureInteraction toolkit: Zeljko Tukovic, P. Cardiff, A. Larac, H. Jasak, A. Ivankovic
+ * FluidStructureInteraction toolkit: Zeljko Tukovic, P. Cardiff, A. Karac, H. Jasak, A. Ivankovic
 
     * For proper punctuation of the names, please see the "slides" document listed above.
 
